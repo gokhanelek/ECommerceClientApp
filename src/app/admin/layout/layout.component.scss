@@ -1,0 +1,13 @@
+.admin-container {
+  width: 98%;
+  height: calc(100vh - 100px);
+  border: 1px solid #555;
+
+  &-sidebar {
+    width: 200px;
+  }
+
+  &-content {
+    padding: 4px;
+  }
+}
