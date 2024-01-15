@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import { BaseComponent } from "../../base/base.component";
+import { NgxSpinnerService } from "ngx-spinner";
 
 @Component({
-  selector: 'app-customers',
-  templateUrl: './customers.component.html',
-  styleUrls: ['./customers.component.scss']
+  selector: "app-customers",
+  templateUrl: "./customers.component.html",
+  styleUrls: ["./customers.component.scss"],
 })
-export class CustomersComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+export class CustomersComponent extends BaseComponent implements OnInit {
+  constructor(spinner: NgxSpinnerService) {
+    super(spinner);
   }
 
+  ngOnInit(): void {}
 }

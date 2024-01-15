@@ -1,10 +1,9 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { ProductsModule } from './products/products.module';
-import { OrdersModule } from './orders/orders.module';
-import { DashboardModule } from './dashboard/dashboard.module';
-
-
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { ProductsModule } from "./products/products.module";
+import { OrdersModule } from "./orders/orders.module";
+import { DashboardModule } from "./dashboard/dashboard.module";
+import { NgxSpinnerModule } from "ngx-spinner";
 
 @NgModule({
   declarations: [],
@@ -12,7 +11,8 @@ import { DashboardModule } from './dashboard/dashboard.module';
     CommonModule,
     ProductsModule,
     OrdersModule,
-    DashboardModule
-  ]
+    DashboardModule,
+    NgxSpinnerModule,
+  ],
 })
-export class ComponentsModule { }
+export class ComponentsModule {}
