@@ -1,0 +1,16 @@
+.product-container {
+  width: 100%;
+  min-height: 300px;
+  height: auto;
+  border: 1px solid #555;
+
+  .left,
+  .right {
+    padding: 5px;
+    color: #fff;
+  }
+
+  .product-create {
+    align-items: center;
+  }
+}
